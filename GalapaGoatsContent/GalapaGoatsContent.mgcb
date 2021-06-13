@@ -13,12 +13,6 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin Audio/BGM/End Music.wav
-/importer:WavImporter
-/processor:SoundEffectProcessor
-/processorParam:Quality=Best
-/build:Audio/BGM/End Music.wav
-
 #begin Audio/BGM/Gameplay Music.wav
 /importer:WavImporter
 /processor:SongProcessor
@@ -60,6 +54,12 @@
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
 /build:Audio/SE/Drown.wav
+
+#begin Audio/SE/End Music.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Audio/SE/End Music.wav
 
 #begin Audio/SE/Fart.wav
 /importer:WavImporter
