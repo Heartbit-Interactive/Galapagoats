@@ -2,7 +2,6 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Media;
 using System.Resources;
-
 namespace GalapaGoats
 {
     public enum MediaMode { Manual, Auto }
@@ -13,7 +12,7 @@ namespace GalapaGoats
 
         public Vocabs()
         {
-            var resourceManager = new ResourceManager ("GalapaGoats.Vocab", typeof(Vocabs).Assembly);
+            var resourceManager = new ResourceManager ("GalapaGoatsOGL.Vocab", typeof(Vocabs).Assembly);
             _data = new string[78, 1];
             for (int i = 0; i < 78; i++)
                 _data[i,0] = resourceManager.GetString(string.Format("Vocab_{0:00}", i));

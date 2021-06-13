@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GalapagoatsOGL", "GalapagoatsOGL.csproj", "{742D9598-D7BC-4980-96A5-755A25033677}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B8DDE5AD-BD67-4C55-8C76-7BD82A74D1F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Farseer Physics NetStd", "..\Farseer Physics Engine 3.5 Samples\Farseer Physics Engine 3.5 Samples\Farseer Physics Engine 3.5\Farseer Physics NetStd.csproj", "{5F6BF30D-733E-4B13-965C-6178FD2FC7CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DebugViewNetStd", "..\Farseer Physics Engine 3.5 Samples\Farseer Physics Engine 3.5 Samples\Farseer Physics DebugView 3.5\DebugViewNetStd.csproj", "{4FFCD5B9-50A7-4B5B-AFE2-8898F73FD9A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{742D9598-D7BC-4980-96A5-755A25033677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{742D9598-D7BC-4980-96A5-755A25033677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{742D9598-D7BC-4980-96A5-755A25033677}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{742D9598-D7BC-4980-96A5-755A25033677}.Debug|x86.Build.0 = Debug|Any CPU
+		{742D9598-D7BC-4980-96A5-755A25033677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{742D9598-D7BC-4980-96A5-755A25033677}.Release|Any CPU.Build.0 = Release|Any CPU
+		{742D9598-D7BC-4980-96A5-755A25033677}.Release|x86.ActiveCfg = Release|Any CPU
+		{742D9598-D7BC-4980-96A5-755A25033677}.Release|x86.Build.0 = Release|Any CPU
+		{5F6BF30D-733E-4B13-965C-6178FD2FC7CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F6BF30D-733E-4B13-965C-6178FD2FC7CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F6BF30D-733E-4B13-965C-6178FD2FC7CB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5F6BF30D-733E-4B13-965C-6178FD2FC7CB}.Debug|x86.Build.0 = Debug|Any CPU
+		{5F6BF30D-733E-4B13-965C-6178FD2FC7CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F6BF30D-733E-4B13-965C-6178FD2FC7CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F6BF30D-733E-4B13-965C-6178FD2FC7CB}.Release|x86.ActiveCfg = Release|Any CPU
+		{5F6BF30D-733E-4B13-965C-6178FD2FC7CB}.Release|x86.Build.0 = Release|Any CPU
+		{4FFCD5B9-50A7-4B5B-AFE2-8898F73FD9A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FFCD5B9-50A7-4B5B-AFE2-8898F73FD9A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FFCD5B9-50A7-4B5B-AFE2-8898F73FD9A2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4FFCD5B9-50A7-4B5B-AFE2-8898F73FD9A2}.Debug|x86.Build.0 = Debug|Any CPU
+		{4FFCD5B9-50A7-4B5B-AFE2-8898F73FD9A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FFCD5B9-50A7-4B5B-AFE2-8898F73FD9A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FFCD5B9-50A7-4B5B-AFE2-8898F73FD9A2}.Release|x86.ActiveCfg = Release|Any CPU
+		{4FFCD5B9-50A7-4B5B-AFE2-8898F73FD9A2}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADBD60D6-EBEB-4CEF-91A6-EF7D391EC53D}
+	EndGlobalSection
+EndGlobal

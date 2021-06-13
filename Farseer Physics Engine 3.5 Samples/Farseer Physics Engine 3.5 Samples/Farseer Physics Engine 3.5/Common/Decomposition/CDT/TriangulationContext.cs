@@ -69,7 +69,11 @@ namespace FarseerPhysics.Common.Decomposition.CDT
 
         public abstract TriangulationConstraint NewConstraint(TriangulationPoint a, TriangulationPoint b);
 
+#if NETSTANDARD
         [MethodImpl(MethodImplOptions.Synchronized)]
+#else
+        [MethodImpl(MethodImplOptions.Synchronized)]
+#endif
         public void Update(string message)
         {
         }

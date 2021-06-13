@@ -4,7 +4,6 @@ using System.Linq;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Content;
-using Microsoft.Xna.Framework.GamerServices;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
@@ -35,15 +34,15 @@ namespace GalapaGoats
         {            
             graphics = new GraphicsDeviceManager(this); //Assegna lo schermo attuale come Graphic Device
             Content.RootDirectory = "Content"; //Percorso Contenuti
-            graphics.PreferredBackBufferWidth = 1280;
-            graphics.PreferredBackBufferHeight = 720;
             //this.IsFixedTimeStep=false;
             //graphics.IsFullScreen = true;
-            //graphics.ApplyChanges();
         }
         protected override void Initialize()
         {            
-            base.Initialize();            
+            base.Initialize();
+            graphics.PreferredBackBufferWidth = 1280;
+            graphics.PreferredBackBufferHeight = 720;
+            graphics.ApplyChanges();
         }
         protected override void LoadContent()
         {
