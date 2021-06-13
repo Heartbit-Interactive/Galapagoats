@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Vocab_00" xml:space="preserve">
+    <value>GOAT OF WAR</value>
+  </data>
+  <data name="Vocab_01" xml:space="preserve">
+    <value>MOST HORN-SHOTS</value>
+  </data>
+  <data name="Vocab_02" xml:space="preserve">
+    <value>GOAT</value>
+  </data>
+  <data name="Vocab_03" xml:space="preserve">
+    <value>SUICIDE GOAT</value>
+  </data>
+  <data name="Vocab_04" xml:space="preserve">
+    <value>MOST SUICIDES</value>
+  </data>
+  <data name="Vocab_05" xml:space="preserve">
+    <value>DEATH</value>
+  </data>
+  <data name="Vocab_06" xml:space="preserve">
+    <value>EASY TARGET</value>
+  </data>
+  <data name="Vocab_07" xml:space="preserve">
+    <value>MOST HORNED PLAYER</value>
+  </data>
+  <data name="Vocab_08" xml:space="preserve">
+    <value>HORN</value>
+  </data>
+  <data name="Vocab_09" xml:space="preserve">
+    <value>BORN TO DIE</value>
+  </data>
+  <data name="Vocab_10" xml:space="preserve">
+    <value>QUICKEST DEATH</value>
+  </data>
+  <data name="Vocab_11" xml:space="preserve">
+    <value>MILLISECOND</value>
+  </data>
+  <data name="Vocab_12" xml:space="preserve">
+    <value>ARMAGOATTON</value>
+  </data>
+  <data name="Vocab_13" xml:space="preserve">
+    <value>THROWING THE BIGGEST NUMBER OF OBJECTS</value>
+  </data>
+  <data name="Vocab_14" xml:space="preserve">
+    <value>OBJECT</value>
+  </data>
+  <data name="Vocab_15" xml:space="preserve">
+    <value>GREEN HOOF</value>
+  </data>
+  <data name="Vocab_16" xml:space="preserve">
+    <value>EATING THE BIGGEST AMOUNT OF GRASS</value>
+  </data>
+  <data name="Vocab_17" xml:space="preserve">
+    <value>GRASS BLOCK</value>
+  </data>
+  <data name="Vocab_18" xml:space="preserve">
+    <value>PUKETASTIC!</value>
+  </data>
+  <data name="Vocab_19" xml:space="preserve">
+    <value>EATING THE MOST PUKE</value>
+  </data>
+  <data name="Vocab_20" xml:space="preserve">
+    <value>PUKE</value>
+  </data>
+  <data name="Vocab_21" xml:space="preserve">
+    <value>U-GOAT</value>
+  </data>
+  <data name="Vocab_22" xml:space="preserve">
+    <value>PASSING MOST OF THE TIME UNDERWATER</value>
+  </data>
+  <data name="Vocab_23" xml:space="preserve">
+    <value>SECOND</value>
+  </data>
+  <data name="Vocab_24" xml:space="preserve">
+    <value>CAPRICORN ONE</value>
+  </data>
+  <data name="Vocab_25" xml:space="preserve">
+    <value>PASSING MOST OF THE TIME OVER THE CLOUDS</value>
+  </data>
+  <data name="Vocab_26" xml:space="preserve">
+    <value>SECOND</value>
+  </data>
+  <data name="Vocab_27" xml:space="preserve">
+    <value>GOAT SUPERSTAR</value>
+  </data>
+  <data name="Vocab_28" xml:space="preserve">
+    <value>FOR BLEATING THE MOST</value>
+  </data>
+  <data name="Vocab_29" xml:space="preserve">
+    <value>BLEAT</value>
+  </data>
+  <data name="Vocab_30" xml:space="preserve">
+    <value>FLAPPY GOAT</value>
+  </data>
+  <data name="Vocab_31" xml:space="preserve">
+    <value>SPENDING MORE TIME IN AIR</value>
+  </data>
+  <data name="Vocab_32" xml:space="preserve">
+    <value>SEC</value>
+  </data>
+  <data name="Vocab_33" xml:space="preserve">
+    <value>WHO WILL BE THE WINNER?</value>
+  </data>
+  <data name="Vocab_34" xml:space="preserve">
+    <value>BUT FIRST A FEW</value>
+  </data>
+  <data name="Vocab_35" xml:space="preserve">
+    <value>SPECIAL PRIZES</value>
+  </data>
+  <data name="Vocab_36" xml:space="preserve">
+    <value>THE PRIZE POOL IS </value>
+  </data>
+  <data name="Vocab_37" xml:space="preserve">
+    <value> G</value>
+  </data>
+  <data name="Vocab_38" xml:space="preserve">
+    <value>GRASS FOR </value>
+  </data>
+  <data name="Vocab_39" xml:space="preserve">
+    <value> NO CLEAR WINNER</value>
+  </data>
+  <data name="Vocab_40" xml:space="preserve">
+    <value>ONLY LOOSERS!</value>
+  </data>
+  <data name="Vocab_41" xml:space="preserve">
+    <value>THE WINNER IS </value>
+  </data>
+  <data name="Vocab_42" xml:space="preserve">
+    <value>GALAPAGOATS</value>
+  </data>
+  <data name="Vocab_43" xml:space="preserve">
+    <value>TRIAL MODE</value>
+  </data>
+  <data name="Vocab_44" xml:space="preserve">
+    <value>ALT+F4 TO QUIT</value>
+  </data>
+  <data name="Vocab_45" xml:space="preserve">
+    <value>PRESS ENTER</value>
+  </data>
+  <data name="Vocab_46" xml:space="preserve">
+    <value>TO JOIN</value>
+  </data>
+  <data name="Vocab_47" xml:space="preserve">
+    <value>USELESS FIELD</value>
+  </data>
+  <data name="Vocab_48" xml:space="preserve">
+    <value>RANDOM USELESS FIELD </value>
+  </data>
+  <data name="Vocab_49" xml:space="preserve">
+    <value>PRESS SPACE TO BEGIN</value>
+  </data>
+  <data name="Vocab_50" xml:space="preserve">
+    <value>PRESS E TO GO SINGLE</value>
+  </data>
+  <data name="Vocab_51" xml:space="preserve">
+    <value>PRESS E TO GO DOUBLE</value>
+  </data>
+  <data name="Vocab_52" xml:space="preserve">
+    <value>PLAY IN</value>
+  </data>
+  <data name="Vocab_53" xml:space="preserve">
+    <value>SEC.</value>
+  </data>
+  <data name="Vocab_54" xml:space="preserve">
+    <value>WAITING FOR</value>
+  </data>
+  <data name="Vocab_55" xml:space="preserve">
+    <value>OTHER PLAYERS</value>
+  </data>
+  <data name="Vocab_56" xml:space="preserve">
+    <value>TO CONFIRM</value>
+  </data>
+  <data name="Vocab_57" xml:space="preserve">
+    <value>CONNECT ANOTHER</value>
+  </data>
+  <data name="Vocab_58" xml:space="preserve">
+    <value>CONTROLLER TO JOIN</value>
+  </data>
+  <data name="Vocab_59" xml:space="preserve">
+    <value>PRESS START</value>
+  </data>
+  <data name="Vocab_60" xml:space="preserve">
+    <value>PRESS A TO BEGIN</value>
+  </data>
+  <data name="Vocab_61" xml:space="preserve">
+    <value>PRESS Y TO GO SINGLE</value>
+  </data>
+  <data name="Vocab_62" xml:space="preserve">
+    <value>PRESS Y TO GO DOUBLE</value>
+  </data>
+  <data name="Vocab_63" xml:space="preserve">
+    <value>PLAY IN</value>
+  </data>
+  <data name="Vocab_64" xml:space="preserve">
+    <value>PROGRAMMING :   FILIPPO FALLERI    AND   MATTEO NICOLOTTI</value>
+  </data>
+  <data name="Vocab_65" xml:space="preserve">
+    <value>ART :   GABRIELE FRATUS   GIANLUCA ROSSI   DAVIDE CANGEMI</value>
+  </data>
+  <data name="Vocab_66" xml:space="preserve">
+    <value>GAME IDEA AND LEVEL DESIGN:   FRANCESCO FICARELLI</value>
+  </data>
+  <data name="Vocab_67" xml:space="preserve">
+    <value>MUSIC AND SFX:   STEFANO CREMONA</value>
+  </data>
+  <data name="Vocab_68" xml:space="preserve">
+    <value>MOVE</value>
+  </data>
+  <data name="Vocab_69" xml:space="preserve">
+    <value>AIM</value>
+  </data>
+  <data name="Vocab_70" xml:space="preserve">
+    <value>GORE</value>
+  </data>
+  <data name="Vocab_71" xml:space="preserve">
+    <value>SWAP</value>
+  </data>
+  <data name="Vocab_72" xml:space="preserve">
+    <value>BLEAT</value>
+  </data>
+  <data name="Vocab_73" xml:space="preserve">
+    <value>JUMP</value>
+  </data>
+  <data name="Vocab_74" xml:space="preserve">
+    <value>WON</value>
+  </data>
+  <data name="Vocab_75" xml:space="preserve">
+    <value>THE TEAM WINNER IS </value>
+  </data>
+  <data name="Vocab_76" xml:space="preserve">
+    <value>GALAPAGOS</value>
+  </data>
+  <data name="Vocab_77" xml:space="preserve">
+    <value>INFERNO</value>
+  </data>
+</root>
